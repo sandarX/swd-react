@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.category-btn-gp {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+.category-btn-gp::-webkit-scrollbar {
+  display: none;
+  /* Chrome, Safari and Opera */
+}
